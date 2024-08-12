@@ -14,7 +14,7 @@ struct ScreenTimeDemoApp: App {
     let center = AuthorizationCenter.shared
     var body: some Scene {
         WindowGroup {
-            ShieldView()
+            ContentView()
                 .task {
                     do {
                         print("try requestAuthorization")
